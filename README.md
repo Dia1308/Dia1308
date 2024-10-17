@@ -1,4 +1,22 @@
-npx react-native init SportsApp
+{
+  "name": "your health",  // Remplace par le nom de ton projet
+  "version": "1.0.0",     // Version de ton projet
+  "description": "Une application incroyable.",  // Brève description
+  "main": "index.js",     // Fichier principal
+  "scripts": {
+    "start": "node index.js",  // Commande pour démarrer le projet
+    "test": "jest"              // Commande pour les tests (si tu utilises Jest)
+  },
+  "dependencies": {
+    "express": "^4.17.1",      // Exemple de dépendance pour le back-end
+    "react": "^17.0.1"          // Exemple de dépendance pour le front-end (si tu utilises React)
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"         // Dépendance de développement pour le rechargement automatique
+  },
+  "author": "Ton Nom",        // Remplace par ton nom
+  "license": "ISC"            // Type de licence
+}npx react-native init SportsApp
 cd SportsApp
 npm install axiosimport React, { useState } from 'react';
 import { View, TextInput, Button, Text, StyleSheet } from 'react-native';
